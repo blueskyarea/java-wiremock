@@ -1,0 +1,19 @@
+{
+    "name": "mapping_1",
+    "request": {
+        "method": "GET",
+        "url": "/mock/sample/1",
+        "headers": {
+            "Content-Type": {
+                "matches": "application/json"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "{\"name\": \"Ken\", \"age\": 20}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

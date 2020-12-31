@@ -1,0 +1,19 @@
+{
+    "name": "mapping_2",
+    "request": {
+        "method": "GET",
+        "url": "/mock/sample/2",
+        "headers": {
+            "Content-Type": {
+                "matches": "application/json"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"response1.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
